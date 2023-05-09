@@ -1,10 +1,13 @@
 import React from "react";
 import "./styles/main.css";
+import Button from "./components/button";
+
 
 const App = () => {
   return (
     <div className="App">
-      <h1>Hello React!</h1>
+      <span>0</span>
+      <Button/>
     </div>
   );
 };
