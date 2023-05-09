@@ -1,3 +1,5 @@
+
+
 * {
   box-sizing: border-box;
   margin: 0;
@@ -15,7 +17,20 @@
 
 button {
   font-size: 26px;
-  padding: .25em;
-  background-color: orangered;
+  padding: 0.25em;
+  background-color: #ff4500;
   color: #fff;
+  cursor: pointer;
+}
+
+button:active {
+  background-color: #ff4500b3;
+  color: #000000;
+}
+
+.the-number {
+  font-size: 40px;
+  font-weight: 700;
+  margin-bottom: 0.5em;
+  color:#6e6868;
 }

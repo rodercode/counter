@@ -16,6 +16,19 @@
 button {
   font-size: 26px;
   padding: 0.25em;
-  background-color: orangered;
+  background-color: #ff4500;
   color: #fff;
+  cursor: pointer;
+}
+
+button:active {
+  background-color: rgba(255, 69, 0, 0.7019607843);
+  color: #000000;
+}
+
+.the-number {
+  font-size: 40px;
+  font-weight: 700;
+  margin-bottom: 0.5em;
+  color: #6e6868;
 }/*# sourceMappingURL=main.css.map */
