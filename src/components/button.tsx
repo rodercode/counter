@@ -1,16 +1,17 @@
-const Button = () => {
-  // VARIABLES
-  let theNumber: number = 0;
+import { useState } from "react";
 
-  // EVENTS
+const Button = () => {
+  // USE STATE HOOK
+  const [number, setNumber] = useState(0);
+
+  // EVENT
   const handleClick = (): void => {
-    theNumber++;
-    console.log(theNumber);
+    setNumber(number + 1);
   };
 
   return (
     <div className="container">
-      <span className="the-number">{theNumber}</span>
+      <span className="the-number">{number}</span>
       <button onClick={handleClick}>Click On Me!</button>
     </div>
   );
