@@ -6,7 +6,7 @@ import Button from "./components/button";
 const App = () => {
   return (
     <div className="App">
-      <span>0</span>
+      <p>0</p>
       <Button/>
     </div>
   );
