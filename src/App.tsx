@@ -6,7 +6,6 @@ const App = () => {
   return (
     <div className="App">
       <div className="container">
-        <span className="the-number">0</span>
         <Button />
       </div>
     </div>
